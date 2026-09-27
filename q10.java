@@ -1,23 +1,19 @@
-//find the reversae of a number
+//Write a Java program to find the sum of all the digits of n, where n is a whole number.
 import java.util.Scanner;
 
-public class q3 {
+public class q10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter n: ");
         int n = sc.nextInt();
-
-        int reverse = 0;
+        int sum = 0;
 
         while (n > 0) {
             int digit = n % 10;
-            reverse = reverse * 10 + digit;
+            sum = sum + digit;
             n = n / 10;
         }
 
-        System.out.println("Reverse = " + reverse);
-
-        sc.close();
+        System.out.println(sum);
     }
 }

@@ -1,13 +1,11 @@
-//find the reversae of a number
+//Write a Java program to find the reverse of a given number.
 import java.util.Scanner;
 
-public class q3 {
+public class q11{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter n: ");
         int n = sc.nextInt();
-
         int reverse = 0;
 
         while (n > 0) {
@@ -16,8 +14,6 @@ public class q3 {
             n = n / 10;
         }
 
-        System.out.println("Reverse = " + reverse);
-
-        sc.close();
+        System.out.println(reverse);
     }
 }
