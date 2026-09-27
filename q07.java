@@ -1,7 +1,7 @@
 // find factorial of n where n is a whole no
 import java.util.Scanner;
 
-public class q7 {
+public class q07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

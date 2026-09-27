@@ -1,7 +1,7 @@
 //find the reversae of a number
 import java.util.Scanner;
 
-public class q3 {
+public class q03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

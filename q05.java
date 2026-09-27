@@ -1,7 +1,7 @@
 //Count Numbers up to N Divisible by K
 import java.util.Scanner;
 
-public class q5 {
+public class q05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
