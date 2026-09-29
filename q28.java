@@ -1,0 +1,26 @@
+// Q28. Write a Java program to print:
+// A
+// ABA
+// ABCBA
+// ABCDCBA
+// ABCDEDCBA
+
+class Q28 {
+    public static void main(String[] args) {
+
+        int n = 5;
+
+        for (int i = 1; i <= n; i++) {
+
+            for (int j = 0; j < i; j++) {
+                System.out.print((char)('A' + j));
+            }
+
+            for (int j = i - 2; j >= 0; j--) {
+                System.out.print((char)('A' + j));
+            }
+
+            System.out.println();
+        }
+    }
+}
